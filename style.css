@@ -1,5 +1,5 @@
-#loginForm {
-    margin: 15% auto auto auto;
+#loginForm, #registerForm, #questionForm {
+    margin: 7% auto auto auto;
     padding-top: 1%;
     padding-bottom: 1%;
     width: 30%;
@@ -45,4 +45,8 @@ nav ul {
 
 .navItem a:visited {
     color: black;
+}
+
+textarea {
+    resize: none;
 }
