@@ -1,0 +1,48 @@
+#loginForm {
+    margin: 15% auto auto auto;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    width: 30%;
+    border-radius: 10px;
+    text-align: center;
+    background-color: white;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-image: url("images/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+}
+
+nav {
+    background-color: #abd2fa;
+    width: 100%;
+    height: 70px;
+    padding: 0;
+    margin: 0;
+    border-bottom: 2px solid black;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.navItem {
+    display: inline-block;
+    line-height: 70px;
+    font-size: 2.5em;
+    margin: 0 2% 0 2%;
+}
+
+.navItem a:link {
+    text-decoration: none;
+    color: black;
+}
+
+.navItem a:visited {
+    color: black;
+}
